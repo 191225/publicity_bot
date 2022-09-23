@@ -15,16 +15,16 @@ const GuildCommands = [
 const GlobalCommands = [
 	new SlashCommandBuilder()
 		.setName('help')
-		.setDescription('Displays help for the command.'),
+		.setDescription('ボットのヘルプを表示します。'),
 	new SlashCommandBuilder()
 		.setName('ping')
-		.setDescription('Replies with pong!'),
+		.setDescription('APIの応答速度を返します。'),
 	new SlashCommandBuilder()
-		.setName('invite')
-		.setDescription('Replies with server info!'),
+		.setName('panel')
+		.setDescription('パネルを作成します。'),
 	new SlashCommandBuilder()
 		.setName('createInvitePanel')
-		.setDescription('Replies with user info!'),
+		.setDescription('宣伝用のカスタムパネルを作成します。'),
 ]
 	.map(command => command.toJSON());
 
