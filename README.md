@@ -10,3 +10,4 @@ https://discord.com/api/oauth2/authorize?client_id=972395858781929503&permission
 まず先に、deploy-commands.jsをnode.jsかなんかで実行してください。
 スラッシュコマンドの登録を行います。
 登録が終わったら、index.jsを実行してください。
+config.jsonを設定しないと何も始まらないですが
