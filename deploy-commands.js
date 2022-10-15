@@ -19,8 +19,12 @@ const GlobalCommands = [
                 
         .addSubcommand(subcommand =>
             subcommand
-                .setName('costom')
+                .setName('custom')
                 .setDescription('カスタムパネルを送信します。'))
+        .setDefaultMemberPermissions(PermissionFlagsBits.Administrator),
+	new SlashCommandBuilder()
+		.setName('bot')
+		.setDescription('ボットパネルを作成します。')
         .setDefaultMemberPermissions(PermissionFlagsBits.Administrator)
 		
 ]
